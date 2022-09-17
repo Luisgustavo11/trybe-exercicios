@@ -1,0 +1,61 @@
+body {
+    font-family: fantasy;
+    color: blueviolet;
+}
+
+/*z-index serve para mostrar a onder dos elementos como qual imagem vai ficar atras uma da outra
+top e left servem para posicionar algum elemento.
+position: absolute*/
+
+#floresta {
+    width: 700px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 1;
+}
+
+#sonic {
+    width: 350px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    z-index: 2;
+}
+
+#oculos {
+    width: 150px;
+    position:absolute;
+    left: 314px;
+    top: 114px;
+    z-index: 3;
+}
+
+h1 {
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+#descricao {
+    position: absolute;
+    z-index: 5;
+    top: 450px;
+    width: 70%;
+}
+
+/*flote serve para trabalharmos com elementos flutuantes.
+margin serve para colocarmos margem no elemento selecionado*/
+
+.moeda {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+#logo {
+    top: 470px;
+    position: fixed;
+    left: 90%;
+    width: 70px;
+}
