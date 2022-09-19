@@ -1,0 +1,59 @@
+/*hover serve para marcar ao passar o mouse, e boder serve para colocar borda ao passar o mouse,
+solid serve para afirmar a cor da borda*/
+
+div:hover {
+    border: 6px solid black;
+}
+
+div:nth-of-type(1) {
+    background-color: blue;
+    width: 200px;
+}
+
+div:nth-of-type(2) {
+    background-color: green;
+    width: 200px;
+}
+
+div:nth-of-type(3) {
+    background-color: cadetblue;
+    width: 200px;
+}
+
+div:nth-of-type(4) {
+    background-color: brown;
+    width: 200px;
+}
+
+div:nth-of-type(5) {
+    background-color: bisque;
+    width: 200px;
+}
+
+div:nth-of-type(1) > h3 {
+    color: rgb(206, 176, 206);
+    font-style: italic;
+}
+
+div:nth-of-type(2) > h3 {
+    font-size: 30px;
+}
+
+div:nth-of-type(3) > h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+div:nth-of-type(4) > h3 {
+    color: chartreuse;
+}
+
+div:nth-of-type(5) > h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+div:nth-of-type(3) {
+    height: 100px;
+}
+ 

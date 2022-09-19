@@ -1,0 +1,22 @@
+p, h1 {
+    text-align: center;
+}
+
+/*li:houver serve para colorir ao passar o mouse/
+/*list-style: none; serve para quando passarmos o mouse, o item identificador da lista como circulo ou número suma*/
+
+li:hover {
+    background-color: green;
+    list-style: none;
+}
+
+/*li:active serve para quando clicarmos o item mudar de cor*/
+
+li:active {
+    color: white;
+    list-style: none;
+}
+
+
+
+
