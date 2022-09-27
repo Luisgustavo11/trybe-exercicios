@@ -117,7 +117,7 @@ const nu3 = 7;
 
 let par = false;
 
-if(nu1 / 2 === 0 || nu2 / 2 === 0 || nu3 / 2 === 0) {
+if(nu1 % 2 === 0 || nu2 % 2 === 0 || nu3 % 2 === 0) {
     par = true;
 }
 console.log(par)*/
@@ -129,7 +129,7 @@ const nu6 = 9;
 
 let impar = false;
 
-if (nu4 / 2 !== 0 || nu5 / 2 !== 0 || nu6  / 2 !== 0) {
+if (nu4 % 2 !== 0 || nu5 % 2 !== 0 || nu6 % 2 !== 0) {
     impar = true;
 };
 console.log(impar);8*/
